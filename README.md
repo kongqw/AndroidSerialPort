@@ -2,6 +2,28 @@
 
 [android-serialport-api](https://code.google.com/archive/p/android-serialport-api/)
 
+[![](https://jitpack.io/v/kongqw/AndroidSerialPort.svg)](https://jitpack.io/#kongqw/AndroidSerialPort
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+``` Gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+
+``` Gradle
+dependencies {
+        compile 'com.github.kongqw:AndroidSerialPort:1.0.0'
+}
+```
 
 ## 查看串口
 
