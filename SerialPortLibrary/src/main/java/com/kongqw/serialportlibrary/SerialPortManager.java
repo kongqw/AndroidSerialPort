@@ -5,9 +5,9 @@ import android.os.HandlerThread;
 import android.os.Message;
 import android.util.Log;
 
-import com.kongqw.listener.OnOpenSerialPortListener;
-import com.kongqw.listener.OnSerialPortDataListener;
-import com.kongqw.thread.SerialPortReadThread;
+import com.kongqw.serialportlibrary.listener.OnOpenSerialPortListener;
+import com.kongqw.serialportlibrary.listener.OnSerialPortDataListener;
+import com.kongqw.serialportlibrary.thread.SerialPortReadThread;
 
 import java.io.File;
 import java.io.FileDescriptor;

@@ -1,4 +1,4 @@
-package com.kongqw.listener;
+package com.kongqw.serialportlibrary.listener;
 
 /**
  * Created by Kongqw on 2017/11/14.
