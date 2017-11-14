@@ -91,4 +91,10 @@ boolean openSerialPort = mSerialPortManager.openSerialPort(device.getFile(), 115
 boolean sendBytes = mSerialPortManager.sendBytes(sendContentBytes);
 ```
 
+## 关闭串口
+
+``` Java
+mSerialPortManager.closeSerialPort();
+```
+
 > PS：传输协议需自行封装
