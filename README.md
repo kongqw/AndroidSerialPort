@@ -1,15 +1,72 @@
 # 说明
 
-> 本程序就是基于官方的demo写的，只不过官方的demo比较老，还是Eclipse工程。
+[android-serialport-api](https://code.google.com/archive/p/android-serialport-api/)
 
-> 为了简化demo，端口号和波特率已经在 'MyApplication.java' 写死。
 
-> 为了方便，也添加了arr，可以直接用
+## 查看串口
 
-## 端口号
+``` Java
+SerialPortFinder serialPortFinder = new SerialPortFinder();
+ArrayList<Device> devices = serialPortFinder.getDevices();
+```
 
-> /dev/ttyS2
+## 打开串口
 
-## 波特率
+### 初始化
 
-> 115200
+``` Java
+mSerialPortManager = new SerialPortManager();
+```
+
+### 添加打开串口监听
+
+``` Java
+mSerialPortManager.setOnOpenSerialPortListener(new OnOpenSerialPortListener() {
+    @Override
+    public void onSuccess(File device) {
+        
+    }
+
+    @Override
+    public void onFail(File device, Status status) {
+
+    }
+});
+```
+
+### 添加数据通信监听
+
+``` Java
+mSerialPortManager.setOnSerialPortDataListener(new OnSerialPortDataListener() {
+    @Override
+    public void onDataReceived(byte[] bytes) {
+        
+    }
+
+    @Override
+    public void onDataSent(byte[] bytes) {
+
+    }
+});
+```
+
+### 打开串口
+
+- 参数1：串口
+- 参数2：波特率
+- 返回：串口打开是否成功
+
+``` Java
+boolean openSerialPort = mSerialPortManager.openSerialPort(device.getFile(), 115200);
+```
+
+### 发送数据
+
+- 参数：发送数据 byte[]
+- 返回：发送是否成功
+
+``` Java
+boolean sendBytes = mSerialPortManager.sendBytes(sendContentBytes);
+```
+
+> PS：传输协议需自行封装

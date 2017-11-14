@@ -37,6 +37,7 @@ public class SerialPortActivity extends AppCompatActivity implements OnOpenSeria
         }
 
         mSerialPortManager = new SerialPortManager();
+
         // 打开串口
         boolean openSerialPort = mSerialPortManager.setOnOpenSerialPortListener(this)
                 .setOnSerialPortDataListener(new OnSerialPortDataListener() {
