@@ -21,7 +21,7 @@ Step 2. Add the dependency
 
 ``` Gradle
 dependencies {
-        compile 'com.github.kongqw:AndroidSerialPort:1.0.0'
+        compile 'com.github.kongqw:AndroidSerialPort:1.0.1'
 }
 ```
 
