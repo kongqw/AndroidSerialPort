@@ -41,6 +41,10 @@ public class SerialPortManager extends SerialPort {
      * @return 打开是否成功
      */
     public boolean openSerialPort(File device, int baudRate) {
+        return openSerialPort(device, baudRate, 0);
+    }
+
+    public boolean openSerialPort(File device, int baudRate, int flags) {
 
         Log.i(TAG, "openSerialPort: " + String.format("打开串口 %s  波特率 %s", device.getPath(), baudRate));
 
@@ -57,7 +61,7 @@ public class SerialPortManager extends SerialPort {
         }
 
         try {
-            mFd = open(device.getAbsolutePath(), baudRate, 0);
+            mFd = open(device.getAbsolutePath(), baudRate, flags);
             mFileInputStream = new FileInputStream(mFd);
             mFileOutputStream = new FileOutputStream(mFd);
             Log.i(TAG, "openSerialPort: 串口已经打开 " + mFd);
