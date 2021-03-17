@@ -1,0 +1,3 @@
+/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/release/arm64-v8a/CMakeFiles/SerialPort.dir

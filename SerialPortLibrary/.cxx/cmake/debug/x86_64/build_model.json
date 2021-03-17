@@ -1,0 +1,211 @@
+{
+  "abi": "X86_64",
+  "abiPlatformVersion": 19,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+    "cmakeServerLogFile": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cxx/debug/x86_64",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+      "cmakeToolchain": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/prefab/x86_64/prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86_64"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-19"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86_64"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj/x86_64"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "19"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "clang"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+  "info": {
+    "abi": "X86_64",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dclang"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "cmakeToolchainFile": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx",
+      "gradleModulePathName": ":SerialPortLibrary",
+      "intermediatesFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates",
+      "makeFile": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/CMakeLists.txt",
+      "moduleBuildFile": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build.gradle",
+      "moduleRootFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "21.3.6528147",
+      "project": {
+        "compilerSettingsCacheFolder": "/home/wenshuoc/Projects/AndroidSerialPort/.cxx",
+        "cxxFolder": "/home/wenshuoc/Projects/AndroidSerialPort/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/home/wenshuoc/Projects/AndroidSerialPort",
+        "sdkFolder": "/home/wenshuoc/Android/Sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/prefab/x86_64"
+}

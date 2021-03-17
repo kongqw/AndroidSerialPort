@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSerialPort_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/CMakeLists.txt",
+    "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "SerialPort-Debug-x86_64": {
+      "buildCommand": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64\" SerialPort",
+      "buildType": "debug",
+      "toolchain": "3827037722",
+      "abi": "x86_64",
+      "artifactName": "SerialPort",
+      "files": [
+        {
+          "src": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/SerialPort.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj/x86_64/libSerialPort.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3827037722": {
+      "cCompilerExecutable": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

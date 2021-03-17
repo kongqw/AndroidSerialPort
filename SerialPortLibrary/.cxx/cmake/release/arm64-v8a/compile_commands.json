@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/release/arm64-v8a",
+  "command": "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DSerialPort_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles/SerialPort.dir/SerialPort.c.o   -c /home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/SerialPort.c",
+  "file": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/SerialPort.c"
+}
+]

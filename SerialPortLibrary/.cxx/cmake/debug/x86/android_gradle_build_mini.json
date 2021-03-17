@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp/CMakeLists.txt",
+    "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "SerialPort-Debug-x86": {
+      "artifactName": "SerialPort",
+      "buildCommand": "/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86\" SerialPort",
+      "abi": "x86",
+      "output": "/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj/x86/libSerialPort.so",
+      "runtimeFiles": []
+    }
+  }
+}

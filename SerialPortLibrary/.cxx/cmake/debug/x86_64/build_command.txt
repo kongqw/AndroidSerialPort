@@ -1,0 +1,22 @@
+                Executable : /home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/src/main/cpp
+-DCMAKE_FIND_ROOT_PATH=/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/prefab/x86_64/prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147
+-DANDROID_PLATFORM=android-19
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=/home/wenshuoc/Android/Sdk/ndk/21.3.6528147
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_MAKE_PROGRAM=/home/wenshuoc/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=19
+-DANDROID_TOOLCHAIN=clang
+-B/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/.cxx/cmake/debug/x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:
