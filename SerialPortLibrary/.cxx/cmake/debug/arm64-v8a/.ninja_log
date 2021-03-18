@@ -1,3 +1,4 @@
 # ninja log v5
 0	39	1615978768	CMakeFiles/SerialPort.dir/SerialPort.c.o	221e420f379bcf27
 40	51	1615978768	/home/wenshuoc/Projects/AndroidSerialPort/SerialPortLibrary/build/intermediates/cmake/debug/obj/arm64-v8a/libSerialPort.so	99b2c027bb12dfe6
+0	2	0	clean	278088c7f6bc9649
