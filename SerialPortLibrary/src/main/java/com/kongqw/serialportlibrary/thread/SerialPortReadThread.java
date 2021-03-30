@@ -29,13 +29,12 @@ public abstract class SerialPortReadThread extends Thread {
 
         while (!isInterrupted()) {
             try {
+                Log.i(TAG, "run: ");
+                while (mInputStream != null && mInputStream.available() == 0) {
+                    Log.i(TAG, "Input stream length is 0");
+                }
                 if (null == mInputStream) {
                     return;
-                }
-
-                Log.i(TAG, "run: ");
-                while (mInputStream.available() == 0) {
-                    // Do nothing
                 }
                 Thread.sleep(750);
                 int size = mInputStream.read(mReadBuffer);
@@ -54,7 +53,7 @@ public abstract class SerialPortReadThread extends Thread {
             } catch (IOException e) {
                 e.printStackTrace();
                 return;
-            } catch (InterruptedException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
