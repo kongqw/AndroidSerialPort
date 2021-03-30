@@ -31,7 +31,7 @@ public abstract class SerialPortReadThread extends Thread {
             try {
                 Log.i(TAG, "run: ");
                 while (mInputStream != null && mInputStream.available() == 0) {
-                    Log.i(TAG, "Input stream length is 0");
+                    // Do nothing
                 }
                 if (null == mInputStream) {
                     return;
