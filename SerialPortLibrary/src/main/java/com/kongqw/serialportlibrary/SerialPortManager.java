@@ -15,11 +15,12 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+
 /**
  * Created by Kongqw on 2017/11/13.
+ * Updated by wenshuoc on 2021/04/13.
  * SerialPortManager
  */
-
 public class SerialPortManager extends SerialPort {
 
     private static final String TAG = SerialPortManager.class.getSimpleName();
@@ -32,6 +33,16 @@ public class SerialPortManager extends SerialPort {
     private HandlerThread mSendingHandlerThread;
     private Handler mSendingHandler;
     private SerialPortReadThread mSerialPortReadThread;
+
+    private final int mReadDelay;
+
+    public SerialPortManager(int readDelay) {
+        mReadDelay = readDelay;
+    }
+
+    public SerialPortManager() {
+        this(0);
+    }
 
     /**
      * 打开串口
@@ -180,7 +191,7 @@ public class SerialPortManager extends SerialPort {
      * 开启接收消息的线程
      */
     private void startReadThread() {
-        mSerialPortReadThread = new SerialPortReadThread(mFileInputStream) {
+        mSerialPortReadThread = new SerialPortReadThread(mFileInputStream, mReadDelay) {
             @Override
             public void onDataReceived(byte[] bytes) {
                 if (null != mOnSerialPortDataListener) {
